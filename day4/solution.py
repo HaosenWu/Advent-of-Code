@@ -16,6 +16,7 @@ rows = len(mat)
 cols = len(mat[0])
 res = 0
 
+# iterate throguh every position in the matrix
 for i in range(rows):
     for j in range(cols):
         if mat[i][j] != '@':
